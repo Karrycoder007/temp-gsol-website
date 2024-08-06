@@ -128,7 +128,7 @@ const Navbarmain = () => {
                   <FaLinkedinIn className="text-gray-700 hover:text-blue-600" />
                 </a>
                 <a
-                  href="https://www.instagram.com/yourprofile"
+                  href="https://www.instagram.com/grudhrasolutions_pvt_ltd/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
