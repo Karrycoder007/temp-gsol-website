@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { motion } from "framer-motion";
 
@@ -39,8 +39,11 @@ const Footer = () => {
             transition={{ duration: 0.8 }}
             className="text-black"
           >
-            <p>Address: 123 Grudhra Street, Business City, BC 12345</p>
-            <p>Phone: +1 (234) 567-890</p>
+            <p>
+              Address: 10 1st Cross, Post, Annapoorneshwari Layout, Yeswanthpur,
+              Doddabidirakallu, Bengaluru, Karnataka 560073
+            </p>
+            <p>Phone: +91-9731123140</p>
             <p>
               Email:{" "}
               <a href="" className="hover:text-blue-500">
