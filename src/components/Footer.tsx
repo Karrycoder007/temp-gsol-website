@@ -49,7 +49,7 @@ const Footer = () => {
                 href="mailto:sales@grudhrasolutions.com"
                 className="hover:text-blue-500"
               >
-                sales@grudhrasolutions.com
+                Email: sales@grudhrasolutions.com
               </a>
             </p>
           </motion.div>
