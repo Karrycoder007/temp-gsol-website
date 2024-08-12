@@ -45,9 +45,11 @@ const Footer = () => {
             </p>
             <p>Phone: +91-9731123140</p>
             <p>
-              Email:{" "}
-              <a href="" className="hover:text-blue-500">
-                grudhrasolutions@gmail.com
+              <a
+                href="mailto:sales@grudhrasolutions.com"
+                className="hover:text-blue-500"
+              >
+                sales@grudhrasolutions.com
               </a>
             </p>
           </motion.div>
