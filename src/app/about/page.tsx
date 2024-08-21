@@ -6,27 +6,6 @@ import React from 'react';
 
 
 
-const memberData = [
-  {
-    name: 'John Doe',
-    title: 'CEO',
-    image: 'https://images.unsplash.com/photo-1660816610628-932cdc5b8c39?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    description: 'Experienced leader with a passion for innovation.'
-  },
-  {
-    name: 'Jane Smith',
-    title: 'CTO',
-    image: 'https://plus.unsplash.com/premium_photo-1682144187125-b55e638cf286?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    description: 'Technical mastermind with a keen eye for detail.'
-  },
-  {
-    name: 'Jane Smith',
-    title: 'CTO',
-    image: 'https://images.unsplash.com/photo-1595956553066-fe24a8c33395?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    description: 'Technical mastermind with a keen eye for detail.'
-  },
-  // Add more members here following the same format
-];
 
 const Page = () => {
   return (
@@ -60,27 +39,7 @@ const Page = () => {
           </motion.div>
         </div>
       </section>
-      <section className="mt-10">
-        <h2 className="text-6xl font-semibold text-blue-900 mb-8 heading-2 text-center">Our Team</h2>
-        <motion.div
-        whileInView={{opacity:1,y:0}}
-        initial={{opacity:0,y:100}}
-        transition={{duration:0.8}}
-         className="grid grid-cols-1 md:grid-cols-3 gap-6 px-10">
-          {memberData.map((member, index) => (
-            <div key={index} className="flex flex-col items-center p-4 bg-gray-500 rounded-lg shadow-md">
-              <img
-                src={member.image}
-                alt={member.name}
-                className="w-42 h-42 rounded-full object-cover mb-4"
-              />
-              <h3 className="text-xl font-bold text-gray-100 mb-2">{member.name}</h3>
-              <p className="text-gray-200 mb-2">{member.title}</p>
-              <p className="text-gray-300 text-sm">{member.description}</p>
-            </div>
-          ))}
-        </motion.div>
-      </section>
+     
 
       <section className="mt-10 bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-6xl font-semibold text-blue-900 text-center mb-4 heading-2">Our Services</h2>
